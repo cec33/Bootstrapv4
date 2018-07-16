@@ -1,0 +1,488 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+/* STYLE GENERAL */
+p{
+    color: gray;
+}
+h2{
+    font-size:2.5rem;
+    color: #2C2C2C;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+}
+h3 {
+    font-size: 1.5rem;
+    color: #2c2c2c;
+    padding-top: 3vh;
+}
+.h4,.h5,.h6{
+    color: gray;
+}
+section:not(.sliderHome){
+    padding-top: 35px;
+    padding-bottom: 65px;
+}
+.btn-info {
+    background-color: #4cabb8;
+    border-color: #4cabb8;
+}
+/* NAVBAR */
+.text-nav{
+    font-size: 1rem;
+}
+nav.navbar {
+    line-height: 3.5;
+    border-bottom: 3px solid #4cabb8;
+}
+nav.navbar a h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+nav.navbar a h1 span {
+    color: #4cabb8;
+}
+/* SLIDER HOME */
+.sliderHome div.carousel-caption{
+    padding-bottom: 27%;
+}
+section.sliderHome h2 {
+    font-family: "coustard", serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+}
+section.sliderHome p {
+    color: white;
+}
+/* SECTIONS */
+/* .OurServicesHome div h3::before, .OurServicesHome div h3::after, .OurTeamHome div h3::before, .OurTeamHome div h3::after, .OurWorksHome div h3::before, .OurWorksHome div h3::after, section.TestimonialsHome div h3::before, section.TestimonialsHome div h3::after, .BlogPostsHome div h3::before, .BlogPostsHome div h3::after, .PricesHome div h3::before, .PricesHome div h3::after, .FormContactHome div h3::before, .FormContactHome div h3::after {
+    content: '';
+    width: 15px;
+    border-bottom: rgb(0, 0, 0) solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+.OurServicesHome div h3::before, .OurTeamHome div h3::before, .OurWorksHome div h3::before, section.TestimonialsHome div h3::before, .BlogPostsHome div h3::before, .PricesHome div h3::before, .FormContactHome div h3::before{
+    margin-left: -100%;
+    margin-right: 10px;
+}
+.OurServicesHome div h3::after, .OurTeamHome div h3::after, .OurWorksHome div h3::after, .TestimonialsHome div h3::after, .BlogPostsHome div h3::after, .PricesHome div h3::after, .TestimonialsHome div h3::after, .BlogPostsHome div h3::after, .FormContactHome div h3::after {
+    margin-right: -100%;
+    margin-left: 10px;
+}
+.OurServicesHome div h3, .OurTeamHome div h3, .BlogPostsHome div h3, .PricesHome div h3, .FormContactHome div h3{
+    padding-top: 5%;
+} */
+.OurServicesHome div h2::before, .OurServicesHome div h2::after, .OurTeamHome div h2::before, .OurTeamHome div h2::after, .OurWorksHome div h2::before, .OurWorksHome div h2::after, section.TestimonialsHome div h2::before, section.TestimonialsHome div h2::after, .BlogPostsHome div h2::before, .BlogPostsHome div h2::after, .PricesHome div h2::before, .PricesHome div h2::after, .FormContactHome div h2::before, .FormContactHome div h2::after {
+    content: '';
+    width: 1.5rem;
+    border: 2.5px #2C2C2C solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+.OurServicesHome div h2::before, .OurTeamHome div h2::before, .OurWorksHome div h2::before, section.TestimonialsHome div h2::before, .BlogPostsHome div h2::before, .PricesHome div h2::before, .FormContactHome div h2::before{
+    margin-left: -100%;
+    margin-right: 10px;
+}
+.OurServicesHome div h2::after, .OurTeamHome div h2::after, .OurWorksHome div h2::after, .TestimonialsHome div h2::after, .BlogPostsHome div h2::after, .PricesHome div h2::after, .TestimonialsHome div h2::after, .BlogPostsHome div h2::after, .FormContactHome div h2::after {
+    margin-right: -100%;
+    margin-left: 10px;
+}
+.OurServicesHome div h2, .OurTeamHome div h2, .BlogPostsHome div h2, .PricesHome div h2, .FormContactHome div h2{
+    padding-top: 5%;
+}
+section div.div1 {
+    padding-bottom: 10vh;
+}
+
+/* SECTION SERVICES */
+div.RetailOurServices{
+    padding: 5vh 0;
+}
+section.OurServicesHome div.RetailOurServices img {
+    padding-top: 5vh;
+}
+/* SECTION TEAM */
+section.OurTeamHome{
+    background-color: #f5f5f5;
+}
+section.OurTeamHome div.top-card-ourteam {
+    background: linear-gradient(to top, rgba(255,255,255,1) 0%, #3BC2BD 0%, #86D8D5 100%);
+    border: 1px solid white;
+    border-radius: 5px 5px 0 0;
+}
+section.OurTeamHome div.bot-card-ourteam {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0 0 5px 5px;
+    padding: 85px 0 45px 0;
+}
+section.OurTeamHome div.top-card-ourteam img{
+    border: 3px solid white;
+    border-radius: 50%;
+    top: 110px;
+    position: relative;
+    margin-bottom: 50px;
+}
+section.OurTeamHome h5.card-title {
+    color: #17a2b8d9;
+}
+/* SECTION OURWORKSHOME */
+/* section.OurWorksHome div a img{
+    box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+} */
+section.OurWorksHome div:nth-child(2){
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+section.OurWorksHome img.img-ourworks{
+    border-radius: 10px;
+}
+/* SECTION ABOUT US */
+section.AboutUsHome{
+    background-color: #2C2C2C;
+}
+section.AboutUsHome h2{
+    color:#4cabb8
+}
+section.AboutUsHome p{
+    color: rgb(196, 196, 196);
+    text-align: justify;
+    text-align-last: center;
+}
+section.AboutUsHome div{
+    padding-bottom: 20px;
+}
+/* SECTION TESTIMONIALS */
+.carousel-caption p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+section.TestimonialsHome div#carouselExampleIndicators {
+    width: 200px;
+    margin: 0 auto;
+}
+section.TestimonialsHome .carousel-inner{
+    width: 200px;
+    margin: 0 auto;
+}
+section.TestimonialsHome ol.carousel-indicators{
+    bottom: 30px;
+}
+@media all screen and (max-width : 767px){
+    section.TestimonialsHome ol.carousel-indicators{
+        bottom: -15px;
+    }
+}
+section.TestimonialsHome .carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    margin-left: 8px;
+    background-color: #4cabb8;
+    border: 1px solid #4cabb8;
+    border-radius: 50%;
+}
+section.TestimonialsHome .carousel-indicators li.active {
+    background-color: grey;
+    border-color: grey;
+}
+section.TestimonialsHome .carousel-caption{
+    position: relative;
+    right: auto;
+    left: auto;
+    bottom: 28px;
+}
+/* SECTION BLOG */
+section.BlogPostsHome{
+    background-color: #f5f5f5;
+}
+section.BlogPostsHome div.card{
+    border: none;
+}
+section.BlogPostsHome a.btn{
+    border: none;
+    border-radius:2px;
+    background-color: #4cabb8;
+}
+/* SECTION PRICES */
+section.PricesHome div.card-body{
+    background: linear-gradient(to bottom, #2C2C2C 38%, #f5f5f5 38%);    
+}
+section.PricesHome div.card{
+    border: none;
+}
+section.PricesHome div.card-md-4.mx-4 {
+    min-width: 21%;
+}
+section.PricesHome div.card-body h5 {
+    color: #f5f5f5;
+    font-weight: 400;
+    line-height: 2rem;
+}
+section.PricesHome div.card-body p {
+    line-height: 2rem;
+}
+section.PricesHome a.btn{
+    border: .5px solid rgba(255, 255, 255, 0.3);
+    border-radius:1px;
+    background-color: #4cabb8;
+}
+/* ASIDE CUSTOMERS */
+aside.CustomersHome{
+    background-color: #f5f5f5;
+    line-height: 100px;
+    padding: 30px 128px;
+}
+/* SECTION CONTACT */
+.MapHome, .AdressContactHome{
+    margin-top: 120px;
+}
+/* FOOTER */
+footer div{
+    height: 100px;
+=======
+@charset "UTF-8";
+/* STYLE GENERAL */
+p{
+    color: gray;
+}
+h2{
+    font-size:2.5rem;
+    color: #2C2C2C;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+}
+h3 {
+    font-size: 1.5rem;
+    color: #2c2c2c;
+    padding-top: 3vh;
+}
+.h4,.h5,.h6{
+    color: gray;
+}
+section:not(.sliderHome){
+    padding-top: 35px;
+    padding-bottom: 65px;
+}
+.btn-info {
+    background-color: #4cabb8;
+    border-color: #4cabb8;
+}
+/* NAVBAR */
+.text-nav{
+    font-size: 1rem;
+}
+nav.navbar {
+    line-height: 3.5;
+    border-bottom: 3px solid #4cabb8;
+}
+nav.navbar a h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+nav.navbar a h1 span {
+    color: #4cabb8;
+}
+/* SLIDER HOME */
+.sliderHome div.carousel-caption{
+    padding-bottom: 27%;
+}
+section.sliderHome h2 {
+    font-family: "coustard", serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+}
+section.sliderHome p {
+    color: white;
+}
+/* SECTIONS */
+/* .OurServicesHome div h3::before, .OurServicesHome div h3::after, .OurTeamHome div h3::before, .OurTeamHome div h3::after, .OurWorksHome div h3::before, .OurWorksHome div h3::after, section.TestimonialsHome div h3::before, section.TestimonialsHome div h3::after, .BlogPostsHome div h3::before, .BlogPostsHome div h3::after, .PricesHome div h3::before, .PricesHome div h3::after, .FormContactHome div h3::before, .FormContactHome div h3::after {
+    content: '';
+    width: 15px;
+    border-bottom: rgb(0, 0, 0) solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+.OurServicesHome div h3::before, .OurTeamHome div h3::before, .OurWorksHome div h3::before, section.TestimonialsHome div h3::before, .BlogPostsHome div h3::before, .PricesHome div h3::before, .FormContactHome div h3::before{
+    margin-left: -100%;
+    margin-right: 10px;
+}
+.OurServicesHome div h3::after, .OurTeamHome div h3::after, .OurWorksHome div h3::after, .TestimonialsHome div h3::after, .BlogPostsHome div h3::after, .PricesHome div h3::after, .TestimonialsHome div h3::after, .BlogPostsHome div h3::after, .FormContactHome div h3::after {
+    margin-right: -100%;
+    margin-left: 10px;
+}
+.OurServicesHome div h3, .OurTeamHome div h3, .BlogPostsHome div h3, .PricesHome div h3, .FormContactHome div h3{
+    padding-top: 5%;
+} */
+.OurServicesHome div h2::before, .OurServicesHome div h2::after, .OurTeamHome div h2::before, .OurTeamHome div h2::after, .OurWorksHome div h2::before, .OurWorksHome div h2::after, section.TestimonialsHome div h2::before, section.TestimonialsHome div h2::after, .BlogPostsHome div h2::before, .BlogPostsHome div h2::after, .PricesHome div h2::before, .PricesHome div h2::after, .FormContactHome div h2::before, .FormContactHome div h2::after {
+    content: '';
+    width: 1.5rem;
+    border: 2.5px #2C2C2C solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+.OurServicesHome div h2::before, .OurTeamHome div h2::before, .OurWorksHome div h2::before, section.TestimonialsHome div h2::before, .BlogPostsHome div h2::before, .PricesHome div h2::before, .FormContactHome div h2::before{
+    margin-left: -100%;
+    margin-right: 10px;
+}
+.OurServicesHome div h2::after, .OurTeamHome div h2::after, .OurWorksHome div h2::after, .TestimonialsHome div h2::after, .BlogPostsHome div h2::after, .PricesHome div h2::after, .TestimonialsHome div h2::after, .BlogPostsHome div h2::after, .FormContactHome div h2::after {
+    margin-right: -100%;
+    margin-left: 10px;
+}
+.OurServicesHome div h2, .OurTeamHome div h2, .BlogPostsHome div h2, .PricesHome div h2, .FormContactHome div h2{
+    padding-top: 5%;
+}
+section div.div1 {
+    padding-bottom: 10vh;
+}
+
+/* SECTION SERVICES */
+div.RetailOurServices{
+    padding: 5vh 0;
+}
+section.OurServicesHome div.RetailOurServices img {
+    padding-top: 5vh;
+}
+/* SECTION TEAM */
+section.OurTeamHome{
+    background-color: #f5f5f5;
+}
+section.OurTeamHome div.top-card-ourteam {
+    background: linear-gradient(to top, rgba(255,255,255,1) 0%, #3BC2BD 0%, #86D8D5 100%);
+    border: 1px solid white;
+    border-radius: 5px 5px 0 0;
+}
+section.OurTeamHome div.bot-card-ourteam {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0 0 5px 5px;
+    padding: 85px 0 45px 0;
+}
+section.OurTeamHome div.top-card-ourteam img{
+    border: 3px solid white;
+    border-radius: 50%;
+    top: 110px;
+    position: relative;
+    margin-bottom: 50px;
+}
+section.OurTeamHome h5.card-title {
+    color: #17a2b8d9;
+}
+/* SECTION OURWORKSHOME */
+/* section.OurWorksHome div a img{
+    box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+} */
+section.OurWorksHome div:nth-child(2){
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+section.OurWorksHome img.img-ourworks{
+    border-radius: 10px;
+}
+/* SECTION ABOUT US */
+section.AboutUsHome{
+    background-color: #2C2C2C;
+}
+section.AboutUsHome h2{
+    color:#4cabb8
+}
+section.AboutUsHome p{
+    color: rgb(196, 196, 196);
+    text-align: justify;
+    text-align-last: center;
+}
+section.AboutUsHome div{
+    padding-bottom: 20px;
+}
+/* SECTION TESTIMONIALS */
+.carousel-caption p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+section.TestimonialsHome div#carouselExampleIndicators {
+    width: 200px;
+    margin: 0 auto;
+}
+section.TestimonialsHome .carousel-inner{
+    width: 200px;
+    margin: 0 auto;
+}
+section.TestimonialsHome ol.carousel-indicators{
+    bottom: 30px;
+}
+@media all screen and (max-width : 767px){
+    section.TestimonialsHome ol.carousel-indicators{
+        bottom: -15px;
+    }
+}
+section.TestimonialsHome .carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    margin-left: 8px;
+    background-color: #4cabb8;
+    border: 1px solid #4cabb8;
+    border-radius: 50%;
+}
+section.TestimonialsHome .carousel-indicators li.active {
+    background-color: grey;
+    border-color: grey;
+}
+section.TestimonialsHome .carousel-caption{
+    position: relative;
+    right: auto;
+    left: auto;
+    bottom: 28px;
+}
+/* SECTION BLOG */
+section.BlogPostsHome{
+    background-color: #f5f5f5;
+}
+section.BlogPostsHome div.card{
+    border: none;
+}
+section.BlogPostsHome a.btn{
+    border: none;
+    border-radius:2px;
+    background-color: #4cabb8;
+}
+/* SECTION PRICES */
+section.PricesHome div.card-body{
+    background: linear-gradient(to bottom, #2C2C2C 38%, #f5f5f5 38%);    
+}
+section.PricesHome div.card{
+    border: none;
+}
+section.PricesHome div.card-md-4.mx-4 {
+    min-width: 21%;
+}
+section.PricesHome div.card-body h5 {
+    color: #f5f5f5;
+    font-weight: 400;
+    line-height: 2rem;
+}
+section.PricesHome div.card-body p {
+    line-height: 2rem;
+}
+section.PricesHome a.btn{
+    border: .5px solid rgba(255, 255, 255, 0.3);
+    border-radius:1px;
+    background-color: #4cabb8;
+}
+/* ASIDE CUSTOMERS */
+aside.CustomersHome{
+    background-color: #f5f5f5;
+    line-height: 100px;
+    padding: 30px 128px;
+}
+/* SECTION CONTACT */
+.MapHome, .AdressContactHome{
+    margin-top: 120px;
+}
+/* FOOTER */
+footer div{
+    height: 100px;
+>>>>>>> 18744925333796d1210ba65148f7f873e44c7303
+}
