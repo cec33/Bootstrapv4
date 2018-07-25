@@ -1,199 +1,173 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-  crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Coustard:900" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-  crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-  crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Coustard:900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width : 767px)" href="smallscreen.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  </head>
 
-<body>
-  <header>
-    <!-- NAVBAR -->
-    <nav class="navbar text-nav justify-content-between navbar-expand-lg navbar-light bg-light">
-      <!-- LOGO -->
-      <a class="navbar-brand col-4 align-items-center text-center" href="#"><h1>TRY<span>ON</span></h1></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- MENU -->
-      <div class="collapse navbar-collapse col-8 align-items-center text-center" id="navbarSupportedContent">
-        <ul class="navbar-nav col-10 justify-content-around">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Works</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Testimonial</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Prices</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar text-nav justify-content-between navbar-expand-lg navbar-light bg-light">
+        <!-- LOGO -->
+        <a class="navbar-brand col-4 align-items-center text-center" href="#"><h1>TRY<span>ON</span></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- MENU -->
+        <div class="collapse navbar-collapse col-8 align-items-center text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav col-10 justify-content-around">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
               </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main class="">
-  <!-- SLIDER -->
-    <section class="sliderHome">
-      <div id="carouselExampleSlidesOnly" class="carousel" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="http://via.placeholder.com/1950x835" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h2>Welcome to tryon</h2>
-              <p>Mollit veniam magna culpa reprehenderit nostrud excepteur laborum ullamco officia qui ut cupidatat.</p>
-              <button type="boutton" class="btn btn-info">Read more</button>
-              <span></span>
-            </div>
-          </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Works</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Testimonial</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Prices</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </div>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
-    <!-- OUR SERVICES -->
-    <section class="OurServicesHome container-fluid col-md-9">
-      <div class="text-center col-md-8 offset-md-2">
-        <h2>Our Services</h2>
-        <p>Incididunt commodo Lorem adipisicing duis sint duis. Non minim commodo voluptate proident.</p>
-      </div>
-      <div class="row RetailOurServices">
-        <div class="col-md-4 text-center">
-          <img src="https://png.icons8.com/ios-glyphs/40/4cabb8/monitor.png">
-          <h3 class="">Responsive</h3>
-          <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="https://png.icons8.com/ios/40/4cabb8/cosmetic-brush-filled.png">
-          <h3 class="">Web Design</h3>
-          <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="https://png.icons8.com/ios/40/4cabb8/iphone-filled.png">
-          <h3 class="">Mobile</h3>
-          <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="https://png.icons8.com/ios-glyphs/40/4cabb8/play.png">
-          <h3 class="">Video</h3>
-          <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="https://png.icons8.com/material/40/4cabb8/shopping-cart.png">
-          <h3 class="">Buy</h3>
-          <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="https://png.icons8.com/ios/40/4cabb8/source-code-filled.png">
-          <h3 class="">Html/Css</h3>
-          <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
-        </div>
-      </div>
-    </section>
-    <!-- OUR TEAM -->
-    <section class="OurTeamHome container-fluid">
-      <div class="text-center col-md-8 offset-md-2 div1">
-        <h2>Our Team</h2>
-        <p>Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate
-          ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim
-          elit nisi cupidatat aute in est.</p>
-      </div>
-      <div class="row col-lg-10 mx-auto">
-        <div class="text-center col-md-4">
-          <div class="card-body align-items-center">
-            <div class="top-card-ourteam">
-                <img src="https://png.icons8.com/color/125/007A8C/user-male-circle.png">
-            </div>
-            <div class="bot-card-ourteam">
-              <h5 class="card-title">John Doe</h5>
-              <p class="card-text">
-                <small class="text-muted">Web Designer</small>
-              </p>
-              <div class="row justify-content-center">
-                <a class="btn px-1" href="#" role="button">
-                  <img src="https://png.icons8.com/material/15/86D8D5/facebook-f.png">
-                </a>
-                <a class="btn px-1" href="#" role="button">
-                  <img src="https://png.icons8.com/ios/15/86D8D5/linkedin-2-filled.png">
-                </a>
-                <a class="btn px-1" href="#" role="button">
-                  <img src="https://png.icons8.com/ios-glyphs/15/86D8D5/github.png">
-                </a>
-                <a class="btn px-1" href="#" role="button">
-                  <img src="https://png.icons8.com/ios/15/86D8D5/dropbox-filled.png">
-                </a>
+      </nav>
+    </header>
+    <main class="">
+    <!-- SLIDER -->
+      <section class="sliderHome">
+        <div id="carouselExampleSlidesOnly" class="carousel" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="http://via.placeholder.com/1950x835" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Welcome to tryon</h2>
+                <p>Mollit veniam magna culpa reprehenderit nostrud excepteur laborum ullamco officia qui ut cupidatat.</p>
+                <button type="boutton" class="btn btn-info">Read more</button>
+                <span></span>
               </div>
             </div>
           </div>
         </div>
-        <div class="text-center col-md-4">
+      </section>
+      <!-- OUR SERVICES -->
+      <section class="OurServicesHome container-fluid col-md-9">
+        <div class="text-center col-md-8 offset-md-2">
+          <h2>Our Services</h2>
+          <p>Incididunt commodo Lorem adipisicing duis sint duis. Non minim commodo voluptate proident.</p>
+        </div>
+        <div class="row RetailOurServices">
+          <div class="col-md-4 text-center">
+            <img src="https://png.icons8.com/ios-glyphs/40/4cabb8/monitor.png">
+            <h3 class="">Responsive</h3>
+            <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="https://png.icons8.com/ios/40/4cabb8/cosmetic-brush-filled.png">
+            <h3 class="">Web Design</h3>
+            <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="https://png.icons8.com/ios/40/4cabb8/iphone-filled.png">
+            <h3 class="">Mobile</h3>
+            <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="https://png.icons8.com/ios-glyphs/40/4cabb8/play.png">
+            <h3 class="">Video</h3>
+            <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="https://png.icons8.com/material/40/4cabb8/shopping-cart.png">
+            <h3 class="">Buy</h3>
+            <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="https://png.icons8.com/ios/40/4cabb8/source-code-filled.png">
+            <h3 class="">Html/Css</h3>
+            <p>Occaecat commodo quis enim proident in Lorem sint et magna minim.</p>
+          </div>
+        </div>
+      </section>
+      <!-- OUR TEAM -->
+      <section class="OurTeamHome container-fluid">
+        <div class="text-center col-md-8 offset-md-2 div1">
+          <h2>Our Team</h2>
+          <p>Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate
+            ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim
+            elit nisi cupidatat aute in est.</p>
+        </div>
+        <div class="row col-lg-10 mx-auto">
+          <div class="text-center col-md-4">
             <div class="card-body align-items-center">
               <div class="top-card-ourteam">
-                  <img src="https://png.icons8.com/color/125/007A8C/user-male-circle.png">
+                <img src="https://png.icons8.com/color/125/007A8C/user-male-circle.png">
               </div>
               <div class="bot-card-ourteam">
                 <h5 class="card-title">John Doe</h5>
@@ -218,135 +192,154 @@
             </div>
           </div>
           <div class="text-center col-md-4">
-              <div class="card-body align-items-center">
-                <div class="top-card-ourteam">
-                    <img src="https://png.icons8.com/color/125/007A8C/user-male-circle.png">
+            <div class="card-body align-items-center">
+              <div class="top-card-ourteam">
+                <img src="https://png.icons8.com/color/125/007A8C/user-male-circle.png">
+              </div>
+              <div class="bot-card-ourteam">
+                <h5 class="card-title">John Doe</h5>
+                <p class="card-text">
+                  <small class="text-muted">Web Designer</small>
+                </p>
+                <div class="row justify-content-center">
+                  <a class="btn px-1" href="#" role="button">
+                    <img src="https://png.icons8.com/material/15/86D8D5/facebook-f.png">
+                  </a>
+                  <a class="btn px-1" href="#" role="button">
+                    <img src="https://png.icons8.com/ios/15/86D8D5/linkedin-2-filled.png">
+                  </a>
+                  <a class="btn px-1" href="#" role="button">
+                    <img src="https://png.icons8.com/ios-glyphs/15/86D8D5/github.png">
+                  </a>
+                  <a class="btn px-1" href="#" role="button">
+                    <img src="https://png.icons8.com/ios/15/86D8D5/dropbox-filled.png">
+                  </a>
                 </div>
-                <div class="bot-card-ourteam">
-                  <h5 class="card-title">John Doe</h5>
-                  <p class="card-text">
-                    <small class="text-muted">Web Designer</small>
-                  </p>
-                  <div class="row justify-content-center">
-                    <a class="btn px-1" href="#" role="button">
-                      <img src="https://png.icons8.com/material/15/86D8D5/facebook-f.png">
-                    </a>
-                    <a class="btn px-1" href="#" role="button">
-                      <img src="https://png.icons8.com/ios/15/86D8D5/linkedin-2-filled.png">
-                    </a>
-                    <a class="btn px-1" href="#" role="button">
-                      <img src="https://png.icons8.com/ios-glyphs/15/86D8D5/github.png">
-                    </a>
-                    <a class="btn px-1" href="#" role="button">
-                      <img src="https://png.icons8.com/ios/15/86D8D5/dropbox-filled.png">
-                    </a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-md-4">
+            <div class="card-body align-items-center">
+              <div class="top-card-ourteam">
+                <img src="https://png.icons8.com/color/125/007A8C/user-male-circle.png">
+              </div>
+              <div class="bot-card-ourteam">
+                <h5 class="card-title">John Doe</h5>
+                <p class="card-text">
+                  <small class="text-muted">Web Designer</small>
+                </p>
+                <div class="row justify-content-center">
+                  <a class="btn px-1" href="#" role="button">
+                    <img src="https://png.icons8.com/material/15/86D8D5/facebook-f.png">
+                  </a>
+                  <a class="btn px-1" href="#" role="button">
+                    <img src="https://png.icons8.com/ios/15/86D8D5/linkedin-2-filled.png">
+                  </a>
+                  <a class="btn px-1" href="#" role="button">
+                    <img src="https://png.icons8.com/ios-glyphs/15/86D8D5/github.png">
+                  </a>
+                  <a class="btn px-1" href="#" role="button">
+                    <img src="https://png.icons8.com/ios/15/86D8D5/dropbox-filled.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- OUR WORKS -->
+        <section class="OurWorksHome">
+          <div class="text-center col-md-8 offset-md-2 div1">
+            <h2>Our Works</h2>
+            <p>Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate
+              ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim
+              elit nisi cupidatat aute in est.</p>
+          </div>
+          <div class="container row col-12 col-xl-9 mx-auto">
+            <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
+                <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
+            </a>
+            <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
+                <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
+            </a>
+            <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
+                <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
+            </a>
+            <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
+                <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
+            </a>
+            <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
+                <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
+            </a>
+            <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
+                <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
+            </a>
+            <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
+                <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
+            </a>
+            <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
+                <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
+            </a>
+          </div>
+        </section>
+        <!-- OUR ABOUT US -->
+        <section class="AboutUsHome">
+          <div class="row col-auto no-gutters">
+            <div class="container col-md-4 text-center">
+              <h2>About Us</h2>
+              <p>Minim eiusmod occaecat ad ad irure veniam cupidatat velit laboris ad anim consequat Lorem. Officia dolore in nisi occaecat mollit. Anim nostrud laborum cupidatat consequat. Qui qui enim ea qui tempor eu. Proident non excepteur velit mollit pariatur elit ipsum nulla.</p>
+              <p>Minim eiusmod occaecat ad ad irure veniam cupidatat velit laboris ad anim consequat Lorem. Officia dolore in nisi occaecat mollit. Anim nostrud laborum cupidatat consequat. Qui qui enim ea qui tempor eu. Proident non excepteur velit mollit pariatur elit ipsum nulla.</p>
+            </div>
+            <div class="col-md-6 align-self-center">
+              <img class="img-fluid" src="https://placeit.net/uploads/stage/stage_image/288/default_apple-2012-15-inch-macbook-pro-retina-big.png"> 
+            </div>
+          </div>
+        </section>
+        <!-- SECTION TESTIMONIALS  -->
+        <section class="TestimonialsHome">
+          <div class="text-center col-md-8 offset-md-2">
+            <h2>Testimonials</h2>
+            <p>
+              <img src="https://png.icons8.com/ios/40/17a2b8/quote-right-filled.png">
+            </p>
+            <p>Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim elit nisi cupidatat aute in est.</p>
+            <div id="carouselExampleIndicators" class="carousel slide pt-4 pb-4" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block" src="https://png.icons8.com/color/200/86D8D5/circled-user-male-skin-type-3.png" alt="First slide">
+                  <div class="carousel-caption d-md-block">
+                    <p>Jack Doe</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="https://png.icons8.com/color/200/86D8D5/circled-user-female-skin-type-4.png" alt="Second slide">
+                  <div class="carousel-caption d-md-block">
+                    <p>Jack Doe</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block" src="https://png.icons8.com/color/200/86D8D5/circled-user-male-skin-type-5.png" alt="Third slide">
+                  <div class="carousel-caption d-md-block">
+                    <p>Jack Doe</p>
                   </div>
                 </div>
               </div>
             </div>
-              </div>
-      </section>
-      <!-- OUR WORKS -->
-      <section class="OurWorksHome">
-        <div class="text-center col-md-8 offset-md-2 div1">
-          <h2>Our Works</h2>
-          <p>Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate
-            ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim
-            elit nisi cupidatat aute in est.</p>
-        </div>
-        <div class="container row col-12 col-xl-9 mx-auto">
-          <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
-              <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
-          </a>
-          <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
-              <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
-          </a>
-          <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
-              <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
-          </a>
-          <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
-              <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
-          </a>
-          <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
-              <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
-          </a>
-          <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
-              <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
-          </a>
-          <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
-              <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
-          </a>
-          <a class="btn col-12 col-sm-6 col-md-4 col-lg-3" href="#" role="button">
-              <img class="img-ourworks img-fluid" src="https://dummyimage.com/16:9x1080/000/fff">
-          </a>
-        </div>
-      </section>
-      <!-- OUR ABOUT US -->
-      <section class="AboutUsHome">
-        <div class="row col-auto no-gutters">
-          <div class="container col-md-4 text-center">
-            <h2>About Us</h2>
-            <p>Minim eiusmod occaecat ad ad irure veniam cupidatat velit laboris ad anim consequat Lorem. Officia dolore in nisi occaecat mollit. Anim nostrud laborum cupidatat consequat. Qui qui enim ea qui tempor eu. Proident non excepteur velit mollit pariatur elit ipsum nulla.</p>
-            <p>Minim eiusmod occaecat ad ad irure veniam cupidatat velit laboris ad anim consequat Lorem. Officia dolore in nisi occaecat mollit. Anim nostrud laborum cupidatat consequat. Qui qui enim ea qui tempor eu. Proident non excepteur velit mollit pariatur elit ipsum nulla.</p>
           </div>
-          <div class="col-md-6 align-self-center">
-            <img class="img-fluid" src="https://placeit.net/uploads/stage/stage_image/288/default_apple-2012-15-inch-macbook-pro-retina-big.png"> 
+        </section>
+        <!-- SECTION BLOG -->
+        <section class="BlogPostsHome">
+          <div class="text-center col-md-12 mx-auto">
+            <h2>Blog Posts</h2>
+            <p class="col-md-4 mx-auto">Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim elit nisi cupidatat aute in est.</p>
           </div>
-        </div>
-      </section>
-      <!-- SECTION TESTIMONIALS  -->
-      <section class="TestimonialsHome">
-        <div class="text-center col-md-8 offset-md-2">
-          <h2>Testimonials</h2>
-          <p>
-            <img src="https://png.icons8.com/ios/40/17a2b8/quote-right-filled.png">
-          </p>
-          <p>Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim elit nisi cupidatat aute in est.</p>
-          <div id="carouselExampleIndicators" class="carousel slide pt-4 pb-4" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block" src="https://png.icons8.com/color/200/86D8D5/circled-user-male-skin-type-3.png" alt="First slide">
-                <div class="carousel-caption d-md-block">
-                  <p>Jack Doe</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block" src="https://png.icons8.com/color/200/86D8D5/circled-user-female-skin-type-4.png" alt="Second slide">
-                <div class="carousel-caption d-md-block">
-                  <p>Jack Doe</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="d-block" src="https://png.icons8.com/color/200/86D8D5/circled-user-male-skin-type-5.png" alt="Third slide">
-                <div class="carousel-caption d-md-block">
-                  <p>Jack Doe</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION BLOG -->
-      <section class="BlogPostsHome">
-        <div class="text-center col-md-12 mx-auto">
-          <h2>Blog Posts</h2>
-          <p class="col-md-4 mx-auto">Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim elit nisi cupidatat aute in est.</p>
-        </div>
-        <div class="row justify-content-center col-md-12 mt-5 mb-5">
-          <div class="card-md-4 mx-4">
-            <img class="card-img-top rounded-0" src="https://picsum.photos/200/130" alt="Card image cap">
-            <div class="card-body text-center bg-white">
-              <h5 class="card-title">Post title</h5>
-              <p class="card-text">Proident veniam anim do nisi labore dolor ea anim.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card-md-4 mx-4">
+          <div class="row justify-content-center col-md-12 mt-5 mb-5">
+            <div class="card-md-4 mx-4">
               <img class="card-img-top rounded-0" src="https://picsum.photos/200/130" alt="Card image cap">
               <div class="card-body text-center bg-white">
                 <h5 class="card-title">Post title</h5>
@@ -362,136 +355,144 @@
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
+              <div class="card-md-4 mx-4">
+                  <img class="card-img-top rounded-0" src="https://picsum.photos/200/130" alt="Card image cap">
+                  <div class="card-body text-center bg-white">
+                    <h5 class="card-title">Post title</h5>
+                    <p class="card-text">Proident veniam anim do nisi labore dolor ea anim.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
                 </div>
-        </div>
-      </section>
-      <!-- SECTION PRICES -->
-      <section class="PricesHome">
-        <div class="text-center col-md-4 mx-auto">
-          <h2>Prices</h2>
-          <p>Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim elit nisi cupidatat aute in est.</p>
-        </div>
-        <div class="row justify-content-center mx-auto mt-5">
-          <div class="card-md-4 mx-4 my-1">
-            <div class="card-body text-center">
-              <h5 class="card-title">Basic
-              <br>$10</h5>
-              <a href="#" class="btn btn-primary">Buy Now</a>
-              <br>
-              <br>
-              <p class="card-text">
-                <br>
-                <br>2 Pages
-                <br>10 GB Storage
-                <br>100 GB Bandwidth
-                <br>1 Domaine
-                <br>No Support
+                  </div>
+          </div>
+        </section>
+        <!-- SECTION PRICES -->
+        <section class="PricesHome">
+          <div class="text-center col-md-4 mx-auto">
+            <h2>Prices</h2>
+            <p>Aliqua eiusmod esse aliquip proident eiusmod eu velit nisi anim deserunt quis nulla in ipsum. Magna amet amet voluptate ea id cillum ut exercitation ullamco voluptate esse nostrud duis. Pariatur elit non exercitation aliqua non minim elit nisi cupidatat aute in est.</p>
+          </div>
+          <div class="row justify-content-center mx-auto mt-5">
+            <div class="card-md-4 mx-4 my-1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Basic
+                <br>$10</h5>
+                <a href="#" class="btn btn-primary">Buy Now</a>
                 <br>
                 <br>
-              </p>
+                <p class="card-text">
+                  <br>
+                  <br>2 Pages
+                  <br>10 GB Storage
+                  <br>100 GB Bandwidth
+                  <br>1 Domaine
+                  <br>No Support
+                  <br>
+                  <br>
+                </p>
+              </div>
+            </div>
+            <div class="card-md-4 mx-4 my-1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Standard<br>$10</h5>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+                <br>
+                <br>
+                <p class="card-text">
+                  <br>
+                  <br>2 Pages
+                  <br>10 GB Storage
+                  <br>100 GB Bandwidth
+                  <br>1 Domaine
+                  <br>No Support
+                  <br>
+                  <br>
+                </p>
+              </div>
+            </div>
+            <div class="card-md-4 mx-4 my-1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Professional<br>$10</h5>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+                <br>
+                <br>
+                <p class="card-text">
+                  <br>
+                  <br>2 Pages
+                  <br>10 GB Storage
+                  <br>100 GB Bandwidth
+                  <br>1 Domaine
+                  <br>No Support
+                  <br>
+                  <br>
+                </p>
+              </div>
             </div>
           </div>
-          <div class="card-md-4 mx-4 my-1">
-            <div class="card-body text-center">
-              <h5 class="card-title">Standard<br>$10</h5>
-              <a href="#" class="btn btn-primary">Buy Now</a>
-              <br>
-              <br>
-              <p class="card-text">
-                <br>
-                <br>2 Pages
-                <br>10 GB Storage
-                <br>100 GB Bandwidth
-                <br>1 Domaine
-                <br>No Support
-                <br>
-                <br>
-              </p>
+        </section>
+        <!-- LOGOS CLIENTS -->
+        <aside class="CustomersHome col-md12 no-gutters row justify-content-around">
+          <img src="https://png.icons8.com/color/50/86D8D5/circled-user-male-skin-type-5.png">
+          <img src="https://png.icons8.com/metro/50/86D8D5/skydrive.png">
+          <img src="https://png.icons8.com/ios/50/86D8D5/docker-filled.png">
+          <img src="https://png.icons8.com/ios/50/86D8D5/steam-filled.png">
+          <img src="https://png.icons8.com/ios/50/86D8D5/dell-filled.png">
+          <img src="https://png.icons8.com/color/50/86D8D5/ebay.png">
+        </aside>
+        <!-- SECTION CONTACT -->
+        <section class="ContactHome">
+          <div class="FormContactHome">
+            <div class="text-center col-md-8 offset-md-2">
+              <h3>Contact</h3>
+            </div>
+            <form class="sectionContactHome my-2">
+              <fieldset>
+                <div class="form-row col-md-12 justify-content-center">
+                  <div class="form-group col-md-3">
+                      <label for="inputContactName" class="small"><strong>Your Name</strong></label>
+                    <input type="text" class="form-control" id="inputContactName" placeholder="Your Name">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <label for="inputContactEmail" class="small"><strong>Your Email</strong></label>
+                    <input type="email" class="form-control" id="inputContactEmail" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="form-row col-md-12 justify-content-center">
+                  <div class="form-group col-md-6">
+                    <label for="inputContactTexterea" class="small"><strong>Your messsage</strong></label>
+                    <textarea class="form-control" id="inputContactTexterea"></textarea>
+                  </div>
+                </div>
+                <div class="form-row col-md-12 justify-content-center">
+                  <button type="submit" class="btn btn-outline-dark">Send Message</button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="MapHome">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.652585585236!2d-73.87869504879114!3d40.83559403788003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f4f214dc56ef%3A0x505b8ddc076c319d!2s1460+Bronx+River+Ave%2C+Bronx%2C+NY+10472%2C+%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1531157663357" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="container mx-auto row justify-content-center AdressContactHome">
+            <div class="col-md-4 text-center">
+                <img src="https://png.icons8.com/metro/20/000000/marker.png">
+                <br><span class="small"><strong>ADDRESS</strong></span>
+                <br><br><address>Veniam laboris culpa sint anim est do quis proident dolor eiusmod esse culpa culpa eu.</address>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="https://png.icons8.com/metro/20/000000/phone.png">
+                <br><span class="small"><strong>PHONE</strong></span>
+                <br><br><a href="tel:+123456789">+123 456 789</a>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="https://png.icons8.com/material/20/000000/new-post.png">
+                <br><span class="small"><strong>EMAIL</strong></span>
+                <br><br><a href="email:contact@email.com">contact-at-email.com</a>
             </div>
           </div>
-          <div class="card-md-4 mx-4 my-1">
-            <div class="card-body text-center">
-              <h5 class="card-title">Professional<br>$10</h5>
-              <a href="#" class="btn btn-primary">Buy Now</a>
-              <br>
-              <br>
-              <p class="card-text">
-                <br>
-                <br>2 Pages
-                <br>10 GB Storage
-                <br>100 GB Bandwidth
-                <br>1 Domaine
-                <br>No Support
-                <br>
-                <br>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- LOGOS CLIENTS -->
-      <aside class="CustomersHome col-md12 no-gutters row justify-content-around">
-        <img src="https://png.icons8.com/color/50/86D8D5/circled-user-male-skin-type-5.png">
-        <img src="https://png.icons8.com/metro/50/86D8D5/skydrive.png">
-        <img src="https://png.icons8.com/ios/50/86D8D5/docker-filled.png">
-        <img src="https://png.icons8.com/ios/50/86D8D5/steam-filled.png">
-        <img src="https://png.icons8.com/ios/50/86D8D5/dell-filled.png">
-        <img src="https://png.icons8.com/color/50/86D8D5/ebay.png">
-      </aside>
-      <!-- SECTION CONTACT -->
-      <section class="ContactHome">
-        <div class="FormContactHome">
-          <div class="text-center col-md-8 offset-md-2">
-            <h3>Contact</h3>
-          </div>
-          <form class="sectionContactHome my-2">
-            <fieldset>
-              <div class="form-row col-md-12 justify-content-center">
-                <div class="form-group col-md-3">
-                    <label for="inputContactName" class="small"><strong>Your Name</strong></label>
-                  <input type="text" class="form-control" id="inputContactName" placeholder="Your Name">
-                </div>
-                <div class="form-group col-md-3">
-                  <label for="inputContactEmail" class="small"><strong>Your Email</strong></label>
-                  <input type="email" class="form-control" id="inputContactEmail" placeholder="Your Email">
-                </div>
-              </div>
-              <div class="form-row col-md-12 justify-content-center">
-                <div class="form-group col-md-6">
-                  <label for="inputContactTexterea" class="small"><strong>Your messsage</strong></label>
-                  <textarea class="form-control" id="inputContactTexterea"></textarea>
-                </div>
-              </div>
-              <div class="form-row col-md-12 justify-content-center">
-                <button type="submit" class="btn btn-outline-dark">Send Message</button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-        <div class="MapHome">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.652585585236!2d-73.87869504879114!3d40.83559403788003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f4f214dc56ef%3A0x505b8ddc076c319d!2s1460+Bronx+River+Ave%2C+Bronx%2C+NY+10472%2C+%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1531157663357" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="container mx-auto row justify-content-center AdressContactHome">
-          <div class="col-md-4 text-center">
-              <img src="https://png.icons8.com/metro/20/000000/marker.png">
-              <br><span class="small"><strong>ADDRESS</strong></span>
-              <br><br><address>Veniam laboris culpa sint anim est do quis proident dolor eiusmod esse culpa culpa eu.</address>
-          </div>
-          <div class="col-md-3 text-center">
-              <img src="https://png.icons8.com/metro/20/000000/phone.png">
-              <br><span class="small"><strong>PHONE</strong></span>
-              <br><br><a href="tel:+123456789">+123 456 789</a>
-          </div>
-          <div class="col-md-3 text-center">
-              <img src="https://png.icons8.com/material/20/000000/new-post.png">
-              <br><span class="small"><strong>EMAIL</strong></span>
-              <br><br><a href="email:contact@email.com">contact-at-email.com</a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="d-flex bg-dark text-white container-fluid align-items-center justify-content-center">Copyright &copy;2017 All rights reserved</div>
-    </footer>
-  </body>
+        </section>
+      </main>
+      <footer>
+        <div class="d-flex bg-dark text-white container-fluid align-items-center justify-content-center">Copyright &copy;2017 All rights reserved</div>
+      </footer>
+    </body>
 </html>
