@@ -1,5 +1,5 @@
 ﻿# Bootstrapv4
-Je suis passé à la nouvelle version de Bootstrap V4.0
+Je suis passé à la nouvelle version de Bootstrap V4.1
 <br>N'hésitez pas à me demander de développer vos pages...
 <br>
 <br>Vous me trouvez sur LinkedIn : https://www.linkedin.com/in/cecilelafont-deweb/
